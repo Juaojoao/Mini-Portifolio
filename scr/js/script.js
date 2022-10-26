@@ -36,5 +36,4 @@ function monstarInformacoesDaBarra(aba){
 
     const informacaoASerMostrada = document.getElementById(idInformacao)
     informacaoASerMostrada.classList.add("selecionado");
-
 }

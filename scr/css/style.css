@@ -43,8 +43,8 @@ body{
 }
 
 .cartao .minhas-informacoes img{
-    width: 106px;
-    height: 100px;
+    width: 150px;
+    height: 135px;
     border-radius: 50%;
     border: 4px solid #757a7c;
 }
@@ -76,8 +76,14 @@ body{
 }
 
 .sobre{
-    width: 30px;
+    width: 50px;
 }
+
+.projetos-img{
+     width: 50px;
+     height: 50px;
+}
+
 .redes{
     width: 60px;
     height: 50px;
@@ -129,7 +135,8 @@ body{
     color: #02d08f;
 }
 
-.redes-socias{
+/* Button REDE */
+.style-button{
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -138,7 +145,7 @@ body{
     overflow-y: auto;
 }
 
-.redes-socias li a{
+.style-button li a{
     width: 250px;
     display: block;
     color: #f3f3f3;
@@ -148,21 +155,48 @@ body{
     transition: opacity 0.3s ease-in-out;
 }
 
-.redes-socias li a:hover{
+.style-button li a:hover{
     opacity: 0.8;
 }
 
-.redes-socias .Curriculo{
+.style-button.rede .btn{
+    border-bottom: none;
+}
+
+.style-button .Curriculo.btn{
     background-color: #06c185;
 }
 
-.redes-socias .GitHub{
+.style-button .GitHub.btn{
     background-color: #545454;
 }
 
-.redes-socias .linkedin{ 
+.style-button .linkedin.btn{ 
     background-color: #1d87bd;
 }
+
+/************************/
+
+
+/* Button Projetos */
+.style-button .btn{
+    background-color: #06c185;
+    border-bottom: 3px solid #3b4939;
+    border-radius: 10px;
+}
+
+.style-button .btn:hover{
+    background-image: url(../img/arrow.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+/*******************/
+
+/* Estilizar SETA botões */
+
+/*************************/
+
 
 
 
